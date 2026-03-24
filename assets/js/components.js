@@ -272,6 +272,16 @@ class SiteBlogsGrid extends HTMLElement {
 }
 customElements.define("site-blogs-grid", SiteBlogsGrid);
 
+class SiteSingleBlogDetails extends HTMLElement {
+  async connectedCallback() {
+    const html = await fetch("components/Blogs/single-blog-details.html").then(
+      (r) => r.text(),
+    );
+    this.innerHTML = html;
+  }
+}
+customElements.define("site-single-blog-details", SiteSingleBlogDetails);
+
 class SiteOffers extends HTMLElement {
   async connectedCallback() {
     const html = await fetch("components/Home/exclusive-deals.html").then((r) =>
