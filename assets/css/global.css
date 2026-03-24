@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('../fonts/futura-md-bt/FutuBd.ttf') format('true-type');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('..fonts/futura-md-bt/FutuBdIt.ttf') format('true-type');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('../fonts/futura-md-bt/FuturaMediumBT.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('../fonts/futura-md-bt/FuturaMediumItalicBT.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('../fonts/futura-md-bt/FuturaBoldBT.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura MD BT';
+    src: url('../fonts/futura-md-bt/FuturaBoldItalicBT.ttf') format('truetype');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+:root {
+    --primary-color-1: #D69F5A;
+    --primary-color-2: #0A1B2F;
+    --secondary-color-1: #895729;
+    --secondary-color-2: #bb6b6c;
+    --secondary-color-3: #7eaf71;
+    --secondary-color-4: #5c9aae;
+    --secondary-color-5: #936da1;
+}
+
+* {
+    font-family: 'Futura MD BT', sans-serif;
+    box-sizing: border-box;
+}
+
+.background-primary-1 {
+    background-color: var(--primary-color-1);
+}
+
+.text-primary-1 {
+    color: var(--primary-color-1);
+}
+
+.outline-primary-1 {
+    outline: 1px solid var(--primary-color-1);
+}
+
+.background-primary-2 {
+    background-color: var(--primary-color-2);
+}
+
+.text-primary-2 {
+    color: var(--primary-color-2);
+}
+
+.outline-primary-2 {
+    outline: 1px solid var(--primary-color-2);
+}
+
+.width-fit {
+    width: fit-content;
+}
+
+.rotate-360 {
+    transform: scale(-1);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color-1);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #f8f8f8;
+    border-radius: 5px;
+}
