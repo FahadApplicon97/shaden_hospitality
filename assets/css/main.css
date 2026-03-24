@@ -366,6 +366,7 @@ header {
 
 .hover-btn-2:hover {
     color: var(--primary-color-2) !important;
+    border: transparent;
 }
 
 .hover-btn:hover::before {
