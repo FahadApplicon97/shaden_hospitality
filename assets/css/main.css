@@ -1987,6 +1987,10 @@ header {
     color: var(--primary-color-1);
 }
 
+.active-hours li:hover {
+    color: var(--primary-color-1) !important;
+}
+
 .footer-bottom {
     position: relative;
     z-index: 9;
