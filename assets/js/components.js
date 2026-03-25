@@ -57,7 +57,7 @@ class SiteRoomSlider2 extends HTMLElement {
       r.text(),
     );
     this.innerHTML = html;
-    const roomSlider2 = this.querySelector(".gt-room-explore-slider");
+    const roomSlider2 = this.querySelector(".room-explore-2-slider");
     if (roomSlider2) {
       new Swiper(roomSlider2, {
         spaceBetween: 30,
