@@ -614,12 +614,12 @@ header {
 
 @media (max-width: 991px) {
 
-    .why-choose-us-image-section .why-choose-us-single-image .gt-content {
+    .why-choose-us-image-section .why-choose-us-single-image .hover-box-content {
         transform: translateY(108px);
     }
 
     @media (max-width: 767px) {
-        .why-choose-us-image-section .why-choose-us-single-image .gt-content {
+        .why-choose-us-image-section .why-choose-us-single-image .hover-box-content {
             transform: translateY(75px);
         }
     }
@@ -643,7 +643,7 @@ header {
     border-radius: 8px;
 }
 
-.why-choose-us-image-section .why-choose-us-single-image .gt-content {
+.why-choose-us-image-section .why-choose-us-single-image .hover-box-content {
     background-color: var(--primary-color-2);
     position: absolute;
     bottom: 0;
@@ -656,19 +656,13 @@ header {
     transition: all 0.4s ease-in-out;
 }
 
-/* @media (max-width: 767px) {
-    .why-choose-us-image-section .gt-choose-us-image .gt-content {
-        transform: translateY(75px);
-    }
-} */
-
-.why-choose-us-image-section .why-choose-us-single-image .gt-content h3 {
+.why-choose-us-image-section .why-choose-us-single-image .hover-box-content h3 {
     color: #FFF;
     margin-bottom: 15px;
     line-height: 1;
 }
 
-.why-choose-us-image-section .why-choose-us-single-image .gt-content p {
+.why-choose-us-image-section .why-choose-us-single-image .hover-box-content p {
     color: #FFF;
     display: -webkit-box;
     -webkit-line-clamp: 3;
@@ -677,7 +671,7 @@ header {
     overflow: hidden;
 }
 
-.why-choose-us-image-section .why-choose-us-single-image:hover .gt-content {
+.why-choose-us-image-section .why-choose-us-single-image:hover .hover-box-content {
     background-color: var(--primary-color-1);
     transform: translateY(0);
 }
