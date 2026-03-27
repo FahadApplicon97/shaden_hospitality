@@ -37,18 +37,9 @@
     z-index: 9;
 }
 
-.breadcrumb-wrapper .breadcrumb-shape {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
-
 .breadcrumb-wrapper .breadcrumb-heading {
-    position: relative;
     padding: 120px 0 160px;
     z-index: 9;
-    text-align: center;
 }
 
 .breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links {
@@ -59,17 +50,13 @@
 }
 
 .breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links li {
-    color: white;
-    text-transform: capitalize;
     font-weight: 400;
     font-size: 16px;
     line-height: 1;
 }
 
 .breadcrumb-wrapper .breadcrumb-heading .breadcrumb-links li a {
-    color: white;
     transition: all 0.4s ease-in-out;
-    text-decoration: none;
 }
 
 /* Line Icon And Hover Button CSS */
@@ -131,8 +118,6 @@
 }
 
 .section-title {
-    position: relative;
-    z-index: 99;
     margin-bottom: 30px;
 }
 
@@ -141,7 +126,6 @@
     font-weight: 400;
     letter-spacing: 0.5px;
     line-height: 1;
-    position: relative;
     display: flex;
     margin-bottom: 25px;
     gap: 10px;
@@ -153,7 +137,6 @@
     z-index: 9;
     overflow: hidden;
 }
-
 
 .service-details-contact-bg::before {
     content: "";
@@ -172,13 +155,6 @@
     background-position: center;
 }
 
-.service-details-contact-bg h3 {
-    text-align: center;
-    color: white;
-    position: relative;
-    z-index: 1;
-}
-
 .service-details-contact-bg .icon {
     text-align: center;
     width: 80px;
@@ -189,7 +165,6 @@
     background-color: white;
     margin: 30px auto 20px;
     position: relative;
-    z-index: 1;
 }
 
 .service-details-contact-bg p {
@@ -197,13 +172,6 @@
     opacity: 0.88;
     margin-bottom: 5px;
 }
-
-.service-details-contact-bg h3 a {
-    color: white;
-    position: relative;
-    z-index: 1;
-}
-
 
 .hero-icon {
     width: 3.5em;
@@ -333,7 +301,6 @@ header {
     height: 550%;
 }
 
-
 /* Home Page Banner */
 
 .hero-text {
@@ -356,10 +323,6 @@ header {
 }
 
 .parallel-lines {
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
     opacity: 0.05;
     filter: invert(1);
     width: 30%;
@@ -404,8 +367,6 @@ header {
 
 .background-video {
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
     inset: 0;
     width: 100%;
     height: 100%;
@@ -416,8 +377,6 @@ header {
 
 .video-bg-iframe {
     position: absolute;
-    /* top: 50%; */
-    /* left: 50%; */
     inset: 0;
     width: 100%;
     /* 16:9 ratio trick */
@@ -618,13 +577,11 @@ header {
 }
 
 .why-choose-us-image-section .why-choose-us-single-image .hover-box-content h3 {
-    color: #FFF;
     margin-bottom: 15px;
     line-height: 1;
 }
 
 .why-choose-us-image-section .why-choose-us-single-image .hover-box-content p {
-    color: #FFF;
     display: -webkit-box;
     -webkit-line-clamp: 3;
     line-clamp: 3;
@@ -638,10 +595,6 @@ header {
 }
 
 /* About Section CSS */
-
-.about-hover {
-    z-index: 1;
-}
 
 .about-hover:hover {
     color: white;
@@ -665,14 +618,6 @@ header {
 
 .about-hover:hover::before {
     height: 550%;
-}
-
-.award-box {
-    background: var(--primary-color-2);
-    padding: 40px 22px;
-    max-width: 200px;
-    bottom: 19%;
-    right: 75px;
 }
 
 /* About 2 Section CSS */
@@ -717,8 +662,6 @@ header {
 }
 
 .about-container-wrapper-2 .about-2-left-content .about-2-items-box .about-2-images img {
-    width: 100%;
-    height: 100%;
     border-radius: 8px;
 }
 
@@ -732,8 +675,6 @@ header {
 }
 
 .about-container-wrapper-2 .about-2-right-image-section .about-2-images img {
-    width: 100%;
-    height: 100%;
     border-radius: 8px;
     margin-right: 30px;
 }
@@ -801,31 +742,6 @@ header {
 .room-slider-wrapper .room-items .room-item-thumb {
     overflow: hidden;
     position: relative;
-}
-
-.room-slider-wrapper .room-items .room-item-thumb img:first-child {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-    -webkit-transform: translateX(50%) scaleX(2);
-    transform: translate(50%) scaleX(2);
-    opacity: 0;
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
-}
-
-.room-slider-wrapper .room-items .room-item-thumb img {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px 8px 0px 0px;
-    position: relative;
-    display: block;
-    object-fit: cover;
-    -webkit-transition: all 500ms ease;
-    transition: all 500ms ease;
 }
 
 .room-slider-wrapper .room-items .room-item-thumb .room-post-box {
@@ -925,9 +841,7 @@ header {
 .room-booking-wrapper {
     padding: 80px;
     border-radius: 12px;
-    background-color: var(--primary-color-2);
     position: relative;
-    z-index: 99;
 }
 
 .room-booking-wrapper .room-form-fields {
@@ -987,7 +901,6 @@ header {
     position: relative;
     overflow: hidden;
     text-align: center;
-    z-index: 1;
     border-radius: 4px;
 }
 
@@ -1652,7 +1565,6 @@ header {
     transform: scale3d(1.1, 1.1, 1);
 }
 
-
 .instagram-image:hover::before {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
@@ -1670,7 +1582,6 @@ header {
     transition: all 0.4s ease-in-out;
     opacity: 0;
     visibility: hidden;
-    z-index: 99;
 }
 
 .instagram-image:hover .instagram-icon {
@@ -1758,7 +1669,6 @@ header {
 
 .footer-bottom {
     position: relative;
-    z-index: 9;
     z-index: 9;
     border-top: 1.5px solid rgba(155, 155, 155, 0.24);
 }
@@ -2039,8 +1949,6 @@ header {
 
 .hotel-detail-container .hotel-images-section .hotel-image-container img {
     border-radius: 16px;
-    width: 100%;
-    height: 100%;
 }
 
 .hotel-detail-container .hotel-images-section .hotel-image-container .hotel-exp-counter {
@@ -2228,12 +2136,6 @@ header {
     border-radius: 8px;
 }
 
-.services-container .service-image img {
-    width: 100%;
-    height: 100%;
-    border-radius: 8px;
-}
-
 .services-container .service-image .price-text {
     font-size: 14px;
     border-radius: 4px;
@@ -2251,7 +2153,6 @@ header {
     position: absolute;
     top: 27%;
     right: 0;
-    z-index: 99;
 }
 
 .services-container .offering-nav-btn .next-btn {
@@ -2348,7 +2249,6 @@ header {
 
 .faq-2-wrapper .faq-items .accordion .accordion-item .accordion-body p {
     color: var(--primary-color-2);
-    font-size: 1x;
     line-height: 32px;
     font-weight: 400;
     font-size: 16px;
@@ -2430,14 +2330,11 @@ header {
 
 .room-explore-2-wrapper .room-explore-box-2-items {
     max-width: 410px;
-    background-color: #FFF;
     padding: 32px;
     border-radius: 8px;
 }
 
 .room-explore-2-wrapper .room-explore-box-2-items .rate-title-2 {
-    background-color: var(--primary-color-1);
-    color: #FFF;
     padding: 13px 15px;
     margin-bottom: 20px;
     font-size: 14px;
@@ -2447,7 +2344,6 @@ header {
 }
 
 .room-explore-2-wrapper .room-explore-box-2-items h3 {
-    color: var(--primary-color-2);
     font-weight: 600;
     margin-bottom: 8px;
 }
@@ -2484,7 +2380,6 @@ header {
     color: var(--gt-white);
 }
 
-
 /* Hotel Booking + Details Section CSS */
 
 .room-details-section {
@@ -2510,7 +2405,6 @@ header {
 .room-details-container .room-details-left-section .room-details-content h5 {
     font-size: 18px;
     font-weight: 400;
-    color: var(--primary-color-1);
 }
 
 .room-details-container .room-details-left-section .room-details-content h3 {
@@ -2673,10 +2567,6 @@ header {
 
 .contact-wrapper .contact-form-left-section {
     margin-right: 40px;
-}
-
-.contact-title h6 {
-    color: var(--primary-color-1);
 }
 
 .contact-wrapper .contact-form-left-section .contact-title h2 {
@@ -2920,12 +2810,6 @@ header {
 
         }
 
-        .award-box {
-            right: 50% !important;
-            bottom: 50% !important;
-            transform: translate(50%, 50%);
-        }
-
         .hotel-detail-container .hotel-images-section .hotel-image-container .hotel-image-2 {
             position: relative;
             top: 0;
@@ -2970,6 +2854,10 @@ header {
 
         .contact-section {
             padding: 80px 0;
+        }
+
+        .shaden-footer-container {
+            padding-bottom: 90px;
         }
     }
 
