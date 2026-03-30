@@ -168,7 +168,6 @@
 }
 
 .service-details-contact-bg p {
-    color: white;
     opacity: 0.88;
     margin-bottom: 5px;
 }
@@ -376,11 +375,8 @@ header {
 }
 
 .video-bg-iframe {
-    position: absolute;
     inset: 0;
-    width: 100%;
     /* 16:9 ratio trick */
-    height: 100%;
     transform: scale(1.5);
     pointer-events: none;
 }
@@ -558,8 +554,6 @@ header {
 }
 
 .why-choose-us-image-section .why-choose-us-single-image img {
-    width: 100%;
-    height: 100%;
     border-radius: 8px;
 }
 
@@ -1552,22 +1546,9 @@ header {
     border-radius: 8px 8px 0px 0px;
 }
 
-.instagram-image img {
-    width: 100%;
-    height: 100%;
-    transform: scale(1.02);
-    transition: all 1.5s ease-out;
-    border-radius: 8px 8px 0px 0px;
-}
-
-.instagram-image:hover img {
-    -webkit-transform: scale3d(1.1, 1.1, 1);
-    transform: scale3d(1.1, 1.1, 1);
-}
-
 .instagram-image:hover::before {
-    -webkit-transform: scale(1, 1);
-    transform: scale(1, 1);
+    -webkit-transform: scale(1.1, 1.1);
+    transform: scale(1.1, 1.1);
     transform-origin: bottom center;
 }
 
@@ -2496,16 +2477,6 @@ header {
     border-radius: 16px;
 }
 
-.right-sidebar-section .right-sidebar .sidebar-title {
-    border-bottom: 1.5px solid rgba(129, 129, 129, 0.24);
-    padding-bottom: 16px;
-    margin-bottom: 30px;
-}
-
-.right-sidebar-section .right-sidebar .sidebar-title h3 {
-    font-weight: 800;
-}
-
 .right-sidebar-section .right-sidebar .booking-item form .form-input-section input {
     width: 100%;
     background-color: white;
@@ -2541,10 +2512,6 @@ header {
     border-bottom: 1.5px solid rgba(129, 129, 129, 0.24);
     padding-bottom: 16px;
     margin-bottom: 30px;
-}
-
-.right-sidebar-section .right-sidebar .sidebar-title h3 {
-    font-weight: 800;
 }
 
 .right-sidebar-section .right-sidebar .amenities-list li:not(:last-child) {
@@ -2832,26 +2799,14 @@ header {
             max-width: 100%;
         }
 
-        .hotel-detail-container {
-            margin-top: 0;
-        }
-
+        .hotel-detail-container,
         .hotel-detail-container .hotel-text-content {
             margin-top: 0;
         }
 
-        .our-hotel-section {
-            padding: 80px 0;
-        }
-
-        .instagram-section {
-            padding: 80px 0;
-        }
-
-        .room-details-section {
-            padding: 80px 0;
-        }
-
+        .our-hotel-section,
+        .instagram-section,
+        .room-details-section,
         .contact-section {
             padding: 80px 0;
         }
