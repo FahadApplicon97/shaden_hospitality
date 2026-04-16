@@ -2898,3 +2898,25 @@ header {
         max-width: 200px;
     }
 }
+
+/* Map Marker CSS */
+g.marker .dot {
+    fill: #f4a261;
+}
+
+g.marker .pulse {
+    fill: rgba(244, 162, 97, 0.4);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        r: 10;
+        opacity: 0.8;
+    }
+
+    100% {
+        r: 30;
+        opacity: 0;
+    }
+}

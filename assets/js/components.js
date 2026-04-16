@@ -228,6 +228,16 @@ class SiteRooms extends HTMLElement {
 }
 customElements.define("site-rooms", SiteRooms);
 
+class SiteLocationHighlight extends HTMLElement {
+  async connectedCallback() {
+    const html = await fetch("components/Common/location-highlight.html").then(
+      (r) => r.text(),
+    );
+    this.innerHTML = html;
+  }
+}
+customElements.define("site-location-highlight", SiteLocationHighlight);
+
 class SiteBooking extends HTMLElement {
   async connectedCallback() {
     const html = await fetch("components/Home/booking.html").then((r) =>
