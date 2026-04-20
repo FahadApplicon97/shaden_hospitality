@@ -238,6 +238,16 @@ class SiteLocationHighlight extends HTMLElement {
 }
 customElements.define("site-location-highlight", SiteLocationHighlight);
 
+class SiteMenu extends HTMLElement {
+  async connectedCallback() {
+    const html = await fetch("components/Common/menu.html").then((r) =>
+      r.text(),
+    );
+    this.innerHTML = html;
+  }
+}
+customElements.define("site-menu", SiteMenu);
+
 class SiteBooking extends HTMLElement {
   async connectedCallback() {
     const html = await fetch("components/Home/booking.html").then((r) =>
