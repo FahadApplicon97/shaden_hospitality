@@ -2985,3 +2985,61 @@ g.marker .pulse {
     font-weight: 400;
     color: var(--primary-color-2);
 }
+
+/* Our Team Section CSS */
+
+.team-member-card .team-member-pic img {
+    border-radius: 16px;
+}
+
+.team-member-card .team-member-pic .team-content {
+    padding: 16px 35px;
+    border-radius: 0px 16px;
+}
+
+.team-member-card .team-member-pic .team-content h4 {
+    font-weight: 800;
+    margin-bottom: 5px;
+}
+
+.team-member-card .team-member-pic .team-content h4 a:hover {
+    color: var(--primary-color-1);
+}
+
+.team-member-card .team-member-pic .social-icon {
+    transform: rotate(90deg);
+    padding: 12px 24px;
+    border-radius: 4px;
+    top: 40%;
+    right: -30%;
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+}
+
+.team-member-card:hover .team-member-pic .social-icon {
+    opacity: 1;
+    visibility: visible;
+    right: -120px;
+}
+
+.team-content h4 a {
+    transition: all 0.4s ease-in-out;
+}
+
+.team-member-card .team-member-pic .social-icon a {
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 100px;
+    transform: rotate(-90deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.team-member-card .team-member-pic .social-icon a:hover {
+    background-color: #FFF;
+    color: var(--primary-color-2) !important;
+}
+
+.working-hours-border {
+    border-bottom: 0.5px solid var(--primary-color-1);
+}

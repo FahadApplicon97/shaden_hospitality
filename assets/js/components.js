@@ -94,6 +94,16 @@ class SiteRoomSlider2 extends HTMLElement {
 }
 customElements.define("site-room-slider-2", SiteRoomSlider2);
 
+class SiteOurTeam extends HTMLElement {
+  async connectedCallback() {
+    const html = await fetch("components/Common/our-team.html").then((r) =>
+      r.text(),
+    );
+    this.innerHTML = html;
+  }
+}
+customElements.define("site-our-team", SiteOurTeam);
+
 class SiteVideoBanner extends HTMLElement {
   async connectedCallback() {
     const html = await fetch("components/Common/video-banner.html").then((r) =>
@@ -237,6 +247,16 @@ class SiteLocationHighlight extends HTMLElement {
   }
 }
 customElements.define("site-location-highlight", SiteLocationHighlight);
+
+class SiteOpeningHours extends HTMLElement {
+  async connectedCallback() {
+    const html = await fetch("components/Common/opening-hours.html").then((r) =>
+      r.text(),
+    );
+    this.innerHTML = html;
+  }
+}
+customElements.define("site-opening-hours", SiteOpeningHours);
 
 class SiteMenu extends HTMLElement {
   async connectedCallback() {
